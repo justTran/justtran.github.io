@@ -14,7 +14,7 @@ This was written in Python. The libraries used for all of this to function are:
 
 Originally was inteded to post the worst scoring photo and give a rather vulgar description. However, I have since begun rethinking how to repurpose it, and possibly just use it for photography purposes. Most likely using the model to find the best three photos in a directory and post their scores. You can check it out [here!][repo]
 
-![sample image](./img/iip.png)
+![sample image](img/iip.png)
 
 [repo]: https://github.com/justTran/Instagram-Roast
 [wk]: https://www.youtube.com/watch?v=pctzpu_wJyE
