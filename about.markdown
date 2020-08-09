@@ -22,10 +22,14 @@ My interests include:
 
 - Back-end Development
   - Python
-    -RestAPIs
-    -SQLAlchemy
   - C/C++
   - Java
-  - SQL and Databases
+  - SQL
+
+- Tools
+  - Bash
+  - Git
+  - MySQL
 
 I would generally love to expand my knowledge in these areas, possibly getting into React or Node.js, maybe even Django or Flask.
+Who knows what I'll end up getting into next?

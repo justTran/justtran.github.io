@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Welcome to my personal website. Here you can find some of the dumb projects that I've done.
