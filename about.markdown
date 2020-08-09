@@ -17,15 +17,15 @@ My language of choice is Python, as it's the language I first started with. Howe
 My interests include:
 
 - Front-end Development
- - JavaScript
- - HTML/CSS
+  - JavaScript
+  - HTML/CSS
 
 - Back-end Development
- - Python
-        -RestAPIs
-        -SQLAlchemy
-    -C/C++
-    -Java
-    -SQL and Databases
+  - Python
+    -RestAPIs
+    -SQLAlchemy
+  - C/C++
+  - Java
+  - SQL and Databases
 
 I would generally love to expand my knowledge in these areas, possibly getting into React or Node.js, maybe even Django or Flask.
