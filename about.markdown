@@ -17,11 +17,11 @@ My language of choice is Python, as it's the language I first started with. Howe
 My interests include:
 
 - Front-end Development
-    -JavaScript
-    -HTML/CSS
+ - JavaScript
+ - HTML/CSS
 
 - Back-end Development
-    -Python
+ - Python
         -RestAPIs
         -SQLAlchemy
     -C/C++
