@@ -27,7 +27,8 @@ url: "https://justtran.github.io/" # the base hostname & protocol for your site,
 github_username:  justTran
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: ronv/sidey
 
 # Exclude from processing.
 # The following items will not be processed, by default.
