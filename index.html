@@ -2,13 +2,51 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: page
+title: Welcome
 ---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Jekyll v4.0.0"/>
+        <meta property="og:title" content="Sidey"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta name="description" content="Personal blog."/>
+        <meta property="og:description" content="Personal blog."/>
+        <meta property="og:site_name" content="Justin Tran"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta property="twitter:title" content="Sidey"/>
+        <meta name="twitter:site" content="@"/>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="sitemap" type="application/xml" title="sitemap" href="/sitemap.xml"/>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <main role="main">
+            <header role="banner">
+                <div id="navi"></div>
 
-<section class="posts">
-    <ul>
-    {% for post in site.posts %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
-    {% endfor %}
-    </ul>
-</section>
+                <script>
+                    $(function(){
+                      $("#navi").load("nav.html");
+                    });
+                </script>
+            </header>
+            <section class="posts">
+                <ul>
+                    <ul>
+                        {% for post in site.posts %}    
+                        <li>
+                                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%Y" }}</time>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
