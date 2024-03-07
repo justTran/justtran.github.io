@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hi
+title: Blooming
 email: tranjustin2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website uses Jekyll and the default theme, Minima.
@@ -27,7 +27,8 @@ url: "https://justtran.github.io/" # the base hostname & protocol for your site,
 github_username:  justTran
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: ronv/sidey
 
 # Exclude from processing.
 # The following items will not be processed, by default.
