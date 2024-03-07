@@ -15,6 +15,12 @@ body {
     color: #16171a
 }
 
+#ageDisplay {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
 nav ul {
     border-right: 1px solid #edf2f7
 }

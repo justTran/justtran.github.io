@@ -36,6 +36,16 @@ permalink: /about/
                     $(function(){
                       $("#navi").load("../nav.html");
                     });
+
+                    function calculateAge() {
+                        var birthDate = new Date("1997-10-22");
+                        var currentDate = new Date();
+                        var ageMil = currentDate - birthDate;
+                        var age = (ageMil / (1000*60*6024*365.25));
+                        $("#ageDisplay").html("Your age is: " + age + " years.");
+                        }
+                        setInterval(calculateAge, 10);
+                        calculateAge();
                 </script>
             </header>
             <section class="post">
