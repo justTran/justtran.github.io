@@ -12,11 +12,11 @@ body {
     text-rendering: optimizeLegibility;
     line-height: 1.5;
     font-size: 1rem;
-    color: #279454
+    color: #16171a
 }
 
 nav ul {
-    border-right: 1px solid #103355
+    border-right: 1px solid #edf2f7
 }
 
 a {
@@ -48,7 +48,7 @@ pre {
 }
 
 code,pre {
-    background: #123252
+    background: #ecedee
 }
 
 code {
