@@ -37,15 +37,15 @@ permalink: /about/
                       $("#navi").load("../nav.html");
                     });
 
-                    function calculateAge() {
-                        var birthDate = new Date("1997-10-22");
-                        var currentDate = new Date();
-                        var ageMil = currentDate - birthDate;
-                        var age = (ageMil / (1000*60*6024*365.25));
-                        $("#ageDisplay").html("Your age is: " + age + " years.");
-                        }
-                        setInterval(calculateAge, 10);
-                        calculateAge();
+                function calculateAge() {
+                    var birthDate = new Date("1997-10-22");
+                    var currentDate = new Date();
+                    var ageMil = currentDate - birthDate;
+                    var ageInYears = ageMil / (1000*60*60*24*365.25);
+                    document.getElementById("age").textContent= "My name is Justin Tran, and I am currently " + ageInYears.toFixed(10) + " years old.";
+                    }
+                    setInterval(calculateAge, 10);
+                    calculateAge();
                 </script>
             </header>
             <section class="post">
@@ -53,7 +53,8 @@ permalink: /about/
                 <p>This page is generated with a static-site generator called Jekyll. The theme is <a href="https://github.com/ronv/sidey">ronv/sidey</a>. 
                     I'm currently making minor cosmetic changes to suit my needs and practice css. All credits go to the original developer!</p>
                 <h2>About Me</h2>
-                <p>My name is Justin Tran. I'm a software engineer and I currently reside in <b>Macomb, MI.</b></P>
+                <p id="age"></p>
+                <p>I'm a software engineer and I currently reside in <b>Macomb, MI.</b></p>
                 
                 <p>I enjoy making things out of pure boredom. Most of my projects come from sheer laziness or just to have something to do.
                     Most of the time, I end up automating something because I'm too lazy to do the small task every time. My goal is to make something
